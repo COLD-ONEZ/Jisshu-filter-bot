@@ -394,7 +394,7 @@ async def start(client:Client, message):
         file_caption=files.caption
     )
     btn = [[
-        InlineKeyboardButton("✛ ᴡᴀᴛᴄʜ & ᴅᴏᴡɴʟᴏᴀᴅ ✛", callback_data=f'stream#{file_id}')
+        InlineKeyboardButton('• MAIN CHANNEL •', url='https://t.me/TEAM_COLD')
     ]]
     toDel=await client.send_cached_media(
         chat_id=message.from_user.id,

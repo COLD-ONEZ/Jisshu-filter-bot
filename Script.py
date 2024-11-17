@@ -119,7 +119,7 @@ User - {}"""
 ➤ Rating: {rating} / 10</b>
 """
 
-    FILE_CAPTION = """<b>{file_caption}\n\n➢ JOIN :「<a href="https://t.me/TEAM_COLD">𝚃𝙴𝙰𝙼 𝙲𝙾𝙻𝙳</a>」</b>"""
+    FILE_CAPTION = """{file_caption}"""
     
 
     ALRT_TXT = """ɢᴇᴛ ᴏᴜᴛ oꜰ ʜᴇʀᴇ !"""

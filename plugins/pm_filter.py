@@ -318,7 +318,7 @@ async def season_search(client: Client, query: CallbackQuery):
             links += f"""<b>\n\n{file_num}. <a href=https://t.me/{temp.U_NAME}?start=file_{query.message.chat.id}_{file.file_id}>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}</a></b>"""
     else:
         btn = [[
-                InlineKeyboardButton(text=f"🔗 {get_size(file.file_size)}≽ {formate_file_name(file.file_name)}", callback_data=f'files#{reqnxt}#{file.file_id}'),]
+                InlineKeyboardButton(text=f"{get_size(file.file_size)}▪️{formate_file_name(file.file_name)}", callback_data=f'files#{reqnxt}#{file.file_id}'),]
                    for file in files
               ]
    
@@ -424,7 +424,7 @@ async def year_search(client: Client, query: CallbackQuery):
             links += f"""<b>\n\n{file_num}. <a href=https://t.me/{temp.U_NAME}?start=file_{query.message.chat.id}_{file.file_id}>[{get_size(file.file_size)}] {' '.join(filter(lambda x: not x.startswith('[') and not x.startswith('@') and not x.startswith('www.'), file.file_name.split()))}</a></b>"""
     else:
         btn = [[
-                InlineKeyboardButton(text=f"🔗 {get_size(file.file_size)}≽ {formate_file_name(file.file_name)}", callback_data=f'files#{reqnxt}#{file.file_id}'),]
+                InlineKeyboardButton(text=f"{get_size(file.file_size)}▪️{formate_file_name(file.file_name)}", callback_data=f'files#{reqnxt}#{file.file_id}'),]
                    for file in files
               ]
         

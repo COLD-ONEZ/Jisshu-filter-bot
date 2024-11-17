@@ -19,7 +19,7 @@ class script(object):
 ᴛᴏ ᴄʜᴇᴄᴋ ɪғ ғsᴜʙ ɪs ᴄᴏɴɴᴇᴄᴛᴇᴅ ᴏʀ ɴᴏᴛ, ᴜsᴇ <code>/show_fsub</code></b>"""
 
     FORCESUB_TEXT="""<b>
-YOU NEED TO JOIN OUR BACKUP CHANNEL TO GET FILES.
+JOIN OUR BACKUP CHANNEL TO GET FILES.
 
 ᴄʟɪᴄᴋ ᴏɴ ᴛʜᴇ "🎗️ ᴊᴏɪɴ ɴᴏᴡ 🎗️" ʙᴜᴛᴛᴏɴ ᴀɴᴅ 
 ᴄʟɪᴄᴋ "Request to Join Channel" ʙᴜᴛᴛᴏɴ,

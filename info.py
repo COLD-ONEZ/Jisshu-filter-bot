@@ -69,11 +69,11 @@ REQUEST_CHANNEL = int(request_channel) if request_channel and id_pattern.search(
 #---------------------------------------------------------------
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-START_IMG = (environ.get('START_IMG', 'https://i.ibb.co/qpxpGmC/image.jpg https://i.ibb.co/DQ35zLZ/image.jpg')).split()
-FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://i.ibb.co/ZNC1Hnb/ad3f2c88a8f2.jpg')
+START_IMG = (environ.get('START_IMG', 'https://envs.sh/Lq1.jpg https://envs.sh/Lq4.jpg https://envs.sh/LqU.jpg https://envs.sh/Lql.jpg https://envs.sh/Lqk.jpg https://envs.sh/Lq8.jpg https://envs.sh/Lq7.jpg https://envs.sh/LqJ.jpg https://envs.sh/Lqo.jpg')).split()
+FORCESUB_IMG = environ.get('FORCESUB_IMG', 'https://envs.sh/LMm.jpg')
 REFER_PICS = (environ.get("REFER_PICS", "https://envs.sh/PSI.jpg")).split() 
-PAYPICS = (environ.get('PAYPICS', 'https://graph.org/file/f4db1c3ad3d9e38b328e6.jpg')).split()
-SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://graph.org/file/9f3f47c690bbcc67633c2.jpg'))
+PAYPICS = (environ.get('PAYPICS', 'https://envs.sh/5e-.jpg')).split()
+SUBSCRIPTION = (environ.get('SUBSCRIPTION', 'https://envs.sh/5iD.jpg'))
 REACTIONS = ["👀", "😱", "🔥", "😍", "🎉", "🥰", "😇", "⚡"]
 #---------------------------------------------------------------
 #---------------------------------------------------------------

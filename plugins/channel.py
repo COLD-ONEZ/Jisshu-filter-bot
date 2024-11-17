@@ -81,8 +81,6 @@ async def send_movie_updates(bot, file_name, caption, file_id):
         movie_update_channel = await db.movies_update_channel_id()    
         btn = [[
             InlineKeyboardButton('📂 ɢᴇᴛ ғɪʟᴇ 📂', url=f'https://telegram.me/{temp.U_NAME}?start=getfile-{search_movie}')
-        ],[
-            InlineKeyboardButton('🌟 MAIN CHANNEL 🌟', url=f'https://t.me/TEAM_COLD')
         ]]
         reply_markup = InlineKeyboardMarkup(btn)
         if poster_url:

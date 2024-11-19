@@ -41,18 +41,18 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) #
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+YG7xgujCS6xkN2Fh') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://telegram.me/Cx_FileShare_BoT?start=Z2V0LTEwMDEwMzIwMzg0Njk0NTgw")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://telegram.me/Cx_FileShare_BoT?start=Z2V0LTEwMDEwMzIwMzg0Njk0NTgw")
 TUTORIAL_3 = environ.get("TUTORIAL_3", "https://telegram.me/Cx_FileShare_BoT?start=Z2V0LTEwMDEwMzIwMzg0Njk0NTgw")
 VERIFY_IMG = environ.get("VERIFY_IMG", "https://graph.org/file/1669ab9af68eaa62c3ca4.jpg")
-SHORTENER_API = environ.get("SHORTENER_API", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'omegalinks.in')
-SHORTENER_API2 = environ.get("SHORTENER_API2", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'omegalinks.in')
-SHORTENER_API3 = environ.get("SHORTENER_API3", "3097623f852197a9ce40d1212aaa8bbf2803e799")
-SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'omegalinks.in')
+SHORTENER_API = environ.get("SHORTENER_API", "a2572c33da08d08ec508c5b8e82b130ae9f7aa01")
+SHORTENER_WEBSITE = environ.get("SHORTENER_WEBSITE", 'adrinolinks.in')
+SHORTENER_API2 = environ.get("SHORTENER_API2", "a2572c33da08d08ec508c5b8e82b130ae9f7aa01")
+SHORTENER_WEBSITE2 = environ.get("SHORTENER_WEBSITE2", 'adrinolinks.in')
+SHORTENER_API3 = environ.get("SHORTENER_API3", "a2572c33da08d08ec508c5b8e82b130ae9f7aa01")
+SHORTENER_WEBSITE3 = environ.get("SHORTENER_WEBSITE3", 'adrinolinks.in')
 TWO_VERIFY_GAP = int(environ.get('TWO_VERIFY_GAP', "14400"))
 THREE_VERIFY_GAP = int(environ.get('THREE_VERIFY_GAP', "14400"))
 #---------------------------------------------------------------
@@ -91,7 +91,7 @@ FILE_CAPTION = environ.get('FILE_CAPTION', f'{script.FILE_CAPTION}')
 IMDB_TEMPLATE = environ.get('IMDB_TEMPLATE', f'{script.IMDB_TEMPLATE_TXT}')
 LONG_IMDB_DESCRIPTION = is_enabled('LONG_IMDB_DESCRIPTION', False)
 PROTECT_CONTENT = is_enabled('PROTECT_CONTENT', False)
-SPELL_CHECK = is_enabled('SPELL_CHECK', True)
+SPELL_CHECK = is_enabled('SPELL_CHECK', False)
 LINK_MODE = is_enabled('LINK_MODE', True)
 
 #---------------------------------------------------------------

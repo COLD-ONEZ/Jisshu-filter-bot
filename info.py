@@ -41,7 +41,7 @@ MOVIE_UPDATE_CHANNEL = int(environ.get('MOVIE_UPDATE_CHANNEL', '0')) #
 SUPPORT_CHAT = environ.get('SUPPORT_CHAT', 'https://t.me/+YG7xgujCS6xkN2Fh') #Support group link ( make sure bot is admin )
 #---------------------------------------------------------------
 #---------------------------------------------------------------
-IS_VERIFY = is_enabled('IS_VERIFY', False)
+IS_VERIFY = is_enabled('IS_VERIFY', True)
 #---------------------------------------------------------------
 TUTORIAL = environ.get("TUTORIAL", "https://telegram.me/Cx_FileShare_BoT?start=Z2V0LTEwMDEwMzIwMzg0Njk0NTgw")
 TUTORIAL_2 = environ.get("TUTORIAL_2", "https://telegram.me/Cx_FileShare_BoT?start=Z2V0LTEwMDEwMzIwMzg0Njk0NTgw")

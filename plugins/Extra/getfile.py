@@ -17,7 +17,7 @@ async def get_hindi(plot):
         print(f"Translation Error: {e}")
         return plot
         
-@Client.on_message(filters.command('getfile'))
+@Client.on_message(filters.command('getfile') & filters.user(ADMINS))
 async def getfile(client, message):
     try:
         query = message.text.split(" ", 1) 
@@ -39,7 +39,7 @@ async def getfile(client, message):
         
         custom_link = f"https://t.me/{temp.U_NAME}?start=getfile-{file_name.replace(' ', '-').lower()}"
         safari_markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton("⚡️GET FILES⚡️", url=custom_link)
+            [InlineKeyboardButton("⚡️ GET FILES ⚡️", url=custom_link)
         ]])
         reply_markup = InlineKeyboardMarkup([
             [InlineKeyboardButton("Yes", callback_data=f"post_yes_{file_name}"),
@@ -96,7 +96,7 @@ async def post_to_channels(client, callback_query):
         
         custom_link = f"https://t.me/{temp.U_NAME}?start=getfile-{file_name.replace(' ', '-').lower()}"
         reply_markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton("⚡️GET FILES⚡️", url=custom_link)
+            [InlineKeyboardButton("⚡️ GET FILES ⚡️", url=custom_link)
         ]])
         for channel_id in POST_CHANNELS:
             try:

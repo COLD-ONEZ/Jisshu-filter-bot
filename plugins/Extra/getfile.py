@@ -2,7 +2,7 @@
 # Please do not remove this credit
 from utils import temp
 from utils import get_poster
-from info import POST_CHANNELS
+from info import POST_CHANNELS, ADMINS
 from googletrans import Translator
 from pyrogram import Client, filters, enums
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton

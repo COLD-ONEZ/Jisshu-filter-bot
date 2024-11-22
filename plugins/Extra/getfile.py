@@ -50,11 +50,10 @@ async def getfile(client, message):
             await message.reply_photo(
                 poster,
                 caption=(
-                    f"<b>🔖Title: {movie_title}</b>\n"
-                    f"<b>🎬 Genres: {genres}</b>\n"
-                    f"<b>⭐️ Rating: {rating}/10</b>\n"
-                    f"<b>📆 Year: {year}</b>\n\n"
-                    f"📕 Story: {hindi_plot}"
+                    f"<b>○ Title: {movie_title}</b>\n"
+                    f"<b>○ Released On: {year}</b>\n"
+                    f"<b>○ Genres: {genres}</b>\n"
+                    f"<b>○ Rating: {rating}/10</b>"
                 ),
                 reply_markup=safari_markup,
                 parse_mode=enums.ParseMode.HTML,
@@ -64,11 +63,10 @@ async def getfile(client, message):
         else:
             await message.reply_text(
                 (
-                    f"<b>🔖Title: {movie_title}</b>\n"
-                    f"<b>🎬 Genres: {genres}</b>\n"
-                    f"<b>⭐️ Rating: {rating}/10</b>\n"
-                    f"<b>📆 Year: {year}</b>\n\n"
-                    f"📕 Story: {hindi_plot}"
+                    f"<b>○ Title: {movie_title}</b>\n"
+                    f"<b>○ Released On: {year}</b>\n"
+                    f"<b>○ Genres: {genres}</b>\n"
+                    f"<b>○ Rating: {rating}/10</b>"
                 ),
                 reply_markup=safari_markup,
                 parse_mode=enums.ParseMode.HTML,
@@ -98,7 +96,7 @@ async def post_to_channels(client, callback_query):
         
         custom_link = f"https://t.me/{temp.U_NAME}?start=getfile-{file_name.replace(' ', '-').lower()}"
         reply_markup = InlineKeyboardMarkup([
-            [InlineKeyboardButton("Get File 📁", url=custom_link)
+            [InlineKeyboardButton("Gehhhh", url=custom_link)
         ]])
         for channel_id in POST_CHANNELS:
             try:
@@ -107,11 +105,10 @@ async def post_to_channels(client, callback_query):
                         chat_id=channel_id,
                         photo=poster,
                         caption=(
-                            f"<b>🔖Title: {movie_title}</b>\n"
-                            f"<b>🎬 Genres: {genres}</b>\n"
-                            f"<b>⭐️ Rating: {rating}/10</b>\n"
-                            f"<b>📆 Year: {year}</b>\n\n"
-                            f"📕 Story: {hindi_plot}"
+                            f"<b>○ Title: {movie_title}</b>\n"
+                            f"<b>○ Released On: {year}</b>\n"
+                            f"<b>○ Genres: {genres}</b>\n"
+                            f"<b>○ Rating: {rating}/10</b>"
                         ),
                         reply_markup=reply_markup,
                         parse_mode=enums.ParseMode.HTML
@@ -120,11 +117,10 @@ async def post_to_channels(client, callback_query):
                     await client.send_message(
                         chat_id=channel_id,
                         text=(
-                            f"<b>🔖Title: {movie_title}</b>\n"
-                            f"<b>🎬 Genres: {genres}</b>\n"
-                            f"<b>⭐️ Rating: {rating}/10</b>\n"
-                            f"<b>📆 Year: {year}</b>\n\n"
-                            f"📕 Story: {hindi_plot}"
+                            f"<b>○ Title: {movie_title}</b>\n"
+                            f"<b>○ Released On: {year}</b>\n"
+                            f"<b>○ Genres: {genres}</b>\n"
+                            f"<b>○ Rating: {rating}/10</b>"
                         ),
                         reply_markup=reply_markup,
                         parse_mode=enums.ParseMode.HTML

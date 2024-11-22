@@ -33,7 +33,7 @@ async def admin_cmds(client, message):
     buttons = [
         [KeyboardButton("/add_premium"), KeyboardButton("/premium_users")],
         [KeyboardButton("/remove_premium"), KeyboardButton("/add_redeem")],
-        [KeyboardButton("/refresh"), KeyboardButton("/set_muc")],
+        [KeyboardButton("/refresh"), KeyboardButton("/set_muc"), KeyboardButton("/getfile")],
         [KeyboardButton("/pm_search_on"), KeyboardButton("/pm_search_off")],
         [KeyboardButton("/set_ads"), KeyboardButton("/del_ads")],
         [KeyboardButton("/setlist"), KeyboardButton("/clearlist")],
